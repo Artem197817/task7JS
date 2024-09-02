@@ -113,12 +113,6 @@ function getBirthday(birthday) {
     return stringDate;
 }
 
-function reverseDate(birthday) {
-console.log(birthday)
-    const parts = birthday.split('-');
-    return `${parts[2]}-${parts[1]}-${parts[0]}`;
-}
-
 function getAllAmount(amounts) {
     if (amounts.length === 0) { return; }
     return amounts.reduce((sum, amount) => sum + amount);
