@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+<section class="client">
+<div class="container">
+    <div class="new-client">
+        <h2>Введите данные</h2>
+        <form class="client-form" id="clientForm">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="firstName">
+            <label for="lastName">Фамилия</label>
+            <input type="text" id="lastName" name="lastName">
+            <label for="birthday">Дата рождения:</label>
+            <input type="date" id="birthday" name="date" required>
+            <label for="phone">Телефон</label>
+            <input type="text" id="phone" name="phone">
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+    <div class="client-list">
+        <ul class="client-list-ul" id="client-list"></ul>
+    </div>
+    <div class="client-list2">
+        <ul class="client-list2-ul" id="client-list2"></ul>
+    </div>
+
+</div>
+    <div class="best-client" id="best-client">
+        <h3>Лучший клиент</h3>
+    </div>
+</section>
+<script src="scripts/script.js"></script>
+</body>
+</html>
